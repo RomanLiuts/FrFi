@@ -15,13 +15,23 @@ namespace FrFi.Controllers
 
         public ActionResult Index()
         {
-            //UserModel user = new UserModel() { FirstName="Roman", LastName="Lyuts" };
-
-            //Data.CreateUser(user);
-            
-            Vk.LogIn();
             return View();
         }
+
+        [HttpPost]
+        public string VkLogIn(string email, string password)
+        {
+            string captchaLink = string.Empty;
+            using ( VkParser parser = new VkParser() )
+            {
+                captchaLink = parser.GetCaptchaLink(Vk.LogIn(email, password));
+
+            }
+
+            return captchaLink;
+        }
+
+
 
     }
 }
