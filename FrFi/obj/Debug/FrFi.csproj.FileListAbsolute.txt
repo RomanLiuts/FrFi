@@ -21,6 +21,15 @@ E:\HobbyProject\FrFi\FrFi\bin\System.Web.Razor.xml
 E:\HobbyProject\FrFi\FrFi\bin\System.Web.WebPages.xml
 E:\HobbyProject\FrFi\FrFi\bin\System.Web.WebPages.Deployment.xml
 E:\HobbyProject\FrFi\FrFi\bin\System.Web.WebPages.Razor.xml
-E:\HobbyProject\FrFi\FrFi\obj\Debug\FrFi.csprojResolveAssemblyReference.cache
 E:\HobbyProject\FrFi\FrFi\obj\Debug\FrFi.dll
 E:\HobbyProject\FrFi\FrFi\obj\Debug\FrFi.pdb
+E:\HobbyProject\FrFi\FrFi\bin\MongoDB.Bson.dll
+E:\HobbyProject\FrFi\FrFi\bin\MongoDB.Driver.dll
+E:\HobbyProject\FrFi\FrFi\bin\MongoDB.Bson.pdb
+E:\HobbyProject\FrFi\FrFi\bin\MongoDB.Bson.xml
+E:\HobbyProject\FrFi\FrFi\bin\MongoDB.Driver.pdb
+E:\HobbyProject\FrFi\FrFi\bin\MongoDB.Driver.xml
+E:\HobbyProject\FrFi\FrFi\obj\Debug\FrFi.csprojResolveAssemblyReference.cache
+E:\HobbyProject\FrFi\FrFi\bin\HtmlAgilityPack.dll
+E:\HobbyProject\FrFi\FrFi\bin\HtmlAgilityPack.pdb
+E:\HobbyProject\FrFi\FrFi\bin\HtmlAgilityPack.xml
