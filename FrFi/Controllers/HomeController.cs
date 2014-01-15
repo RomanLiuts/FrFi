@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using FrFi.DomainModel;
 using FrFi.Models;
+using HtmlAgilityPack;
 
 namespace FrFi.Controllers
 {
@@ -30,7 +31,7 @@ namespace FrFi.Controllers
 
             return captchaLink;
         }
-        ///captcha.php?s=0&sid=977409594420
+     
         
         //TODO: вытащить список друзей и записать в бд
         // TODO: если капча нужна опять
@@ -41,6 +42,10 @@ namespace FrFi.Controllers
             string captchaSid = src.Split('=')[2];
 
             Vk.LogIn(email, password, captchaSid, captchaKey);
+
+            string friendsDocument = Vk.Post(@"http://m.vk.com/friends", null);
+
+
             return Json("Ok!");
         }
 

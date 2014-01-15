@@ -22,7 +22,7 @@ namespace FrFi.DomainModel
 
         }
 
-        private static string Post(string url, string data)
+        public static string Post(string url, string data)
         {
             var cookies = new CookieContainer();
             ServicePointManager.Expect100Continue = false;

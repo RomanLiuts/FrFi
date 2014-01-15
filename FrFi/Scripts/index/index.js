@@ -37,7 +37,7 @@ $(".captcha-submit-button").click(function () {
 
 
     $.post("/Home/VkCaptchaLogIn/", { email: _email, password: _password, src: src, captchaKey: _captchaKey }, function (data) {
-        alert(data);
+        
     });
 
 });
