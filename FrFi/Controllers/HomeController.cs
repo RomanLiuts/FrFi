@@ -30,7 +30,19 @@ namespace FrFi.Controllers
 
             return captchaLink;
         }
+        ///captcha.php?s=0&sid=977409594420
+        
+        //TODO: вытащить список друзей и записать в бд
+        // TODO: если капча нужна опять
 
+        [HttpPost]
+        public JsonResult VkCaptchaLogIn(string email, string password, string src, string captchaKey)
+        {
+            string captchaSid = src.Split('=')[2];
+
+            Vk.LogIn(email, password, captchaSid, captchaKey);
+            return Json("Ok!");
+        }
 
 
     }

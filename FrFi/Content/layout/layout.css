@@ -57,7 +57,7 @@ body
         border-radius: 10px;
         border: 2px solid black;
         font-size: 17px;
-        font-size: Arial, Georgia, times new roman;
+        font-size: Arial, times new roman;
     }
 
     .search .main-submit-button
@@ -108,7 +108,6 @@ body
             top: 1px;
         }
 
-
 .main-content
 {
     top: 20%;
@@ -128,15 +127,3 @@ body
 }
 
 
-.captcha-image
-{
-    margin-left:40%;
-    margin-top: 1em;
-
-}
-
-    .captcha-image img
-    {
-        width: 400px;
-        height: auto;
-    }
